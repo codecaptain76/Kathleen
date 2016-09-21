@@ -1,0 +1,43 @@
+#navbar .navbar{
+    position: static;
+    background-color: #000;
+    
+
+}
+
+
+
+.navbar-header {
+    color: purple;
+}
+
+#section-1 #carousel-930937{
+	height: 300px ;
+	margin-top: 300px;
+    width: 100% ;
+    top:-300px;
+}
+
+
+
+
+#footer {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: auto;
+    left: 0;
+    background-color: #000;
+    text-align: center;
+    color: #DD00DD;
+}
+
+#container {
+   min-height:100%;
+   position:relative;
+}
+#header {
+   background:#ff0;
+   padding:10px;
+}
+

@@ -1,0 +1,25 @@
+#section-1{
+	height: 300px ;
+	margin-top: 300px;
+}
+
+#fill{
+
+
+}
+
+.carousel-inner{
+	width: 100% ;
+	margin: 0 auto;
+}
+
+#footer {
+    position:absolute;
+    bottom:0px;
+    width: 100%;
+    margin: 0;
+    background-color: #000;
+    height: 100px;/* or however high you would like */
+    text-align: center;
+    color: #DD00DD;
+}
