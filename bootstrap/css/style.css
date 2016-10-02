@@ -2,9 +2,8 @@
     position: static;
     background-color: #000;
     
-    color: purple;
+    color: #FF66FF;
 }
-
 
 .item{
     height: 450px;
@@ -14,6 +13,7 @@
 body{
     background-color: #000;
 }
+
 #footer {
     width: 100%;
     height: 100px;
@@ -24,4 +24,18 @@ body{
     text-align: center;
     color: #DD00DD;
     display: inline-block;
+}
+
+#bio-container{
+    background-color: #FF66FF;
+    color: #000;
+    font-size: large;
+    text-align: justify;
+    padding: 50px;
+
+}
+
+.bio-header{
+    color: #000;
+    text-align: left;
 }
