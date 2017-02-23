@@ -2,16 +2,17 @@
     position: static;
     background-color: #000;
     
-    color: #FF66FF;
+    color: #99CCFF;
 }
 
 .item{
-    height: 450px;
+    height: 50px;
     padding: 0px;
 }
 
 body{
-    background-color: #000;
+    background-color: #9999FF;
+    background-image: url(http://www.transparenttextures.com/patterns/fresh-snow.png);
 }
 
 #footer {
@@ -27,15 +28,63 @@ body{
 }
 
 #bio-container{
-    background-color: #FF66FF;
+    background-color: #9999FF;
+    background-image: url(http://www.transparenttextures.com/patterns/fresh-snow.png);
     color: #000;
     font-size: large;
-    text-align: justify;
-    padding: 50px;
+    text-align: left;
+    padding: 30px;
+    width: 100%;
+    vertical-align: center;
+}
 
+#image-container{
+    background-color: #9999FF;
+    background-color: #e043ce;
+background-image: url(http://www.transparenttextures.com/patterns/nice-snow.png);
+
+    color: #000;
+    font-size: large;
+    text-align: left;
+    padding: 0px;
+    width: 100%;
+    vertical-align: center;
 }
 
 .bio-header{
     color: #000;
     text-align: left;
+}
+
+
+
+.work-header{
+    margin-top: -100px;
+    text-align: center;
+    padding: 100px;
+    color: #000;
+
+}
+
+.work-body{
+    margin-top: -100px;
+    padding: 50px;
+
+
+}
+
+.work-points{
+    padding-left: 100px;
+
+
+
+}
+.testimonial1, .testimonial2, .testimonial3, .testimonial4, .testimonial5, .testimonial6, .testimonial7{
+    text-align: left;
+    padding: 25px;
+
+}
+
+.testfoot1, .testfoot2, .testfoot3, .testfoot4, .testfoot5, .testfoot6, .testfoot7{ 
+    text-align: right;
 }
