@@ -135,3 +135,14 @@ body{
     padding: 25px;
     margin-top: -50px;
 }
+
+.contactImg{
+    margin-right: 125px;
+    margin-left: -100px;
+    margin-top: 70px;
+
+}
+
+.containerContact{
+    margin: 75px;
+}
