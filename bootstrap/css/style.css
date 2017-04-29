@@ -69,6 +69,11 @@ body{
     vertical-align: center;
 }
 
+.list-points{
+    text-indent: 50px;
+    font-weight: bold;
+}
+
 #image-container{
     color: #000;
     font-size: large;
