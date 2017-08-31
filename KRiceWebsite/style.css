@@ -19,6 +19,10 @@
 	margin: 0 auto;
 }
 
+.work-points{
+    list-style-position: outside;
+    margin-left: 1em;
+}
 
 #footer {
     position:absolute;
