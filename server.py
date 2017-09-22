@@ -33,5 +33,33 @@ def contact():
 
 @app.route('/send-email', methods= ['POST'])
 def email():
+
+"""User writes info in login email    
+
+boxes and clicks submit, which directs here"""
+	
+	fname = request.form.get("fname")
+	lname = request.form.get("lname")
 	email = request.form.get("email")
+	phone = request.form.get("phone")
+	message = request.form.get("message")
+	
+	user = User.query.filter_by(fname=fname, lname=lname, email=email, phone=phone, message=message).first()
+
+
+
+if user:
+
+session["user_id"] = user.user_id
+
+# print user.user_id
+
+flash("Thank You, %s" % user.name)
+
+
+
+
+
+return render_template(“/contact.html", user=user)  
+	
 	
