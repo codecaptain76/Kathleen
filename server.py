@@ -27,11 +27,9 @@ def approach():
 def about():
 	return render_template("about.html")
 
-@app.route('/contact')
-def contact():
-	return render_template("contact.html")
 
-@app.route('/send-email', methods= ['POST'])
+
+@app.route('/contact', methods= ['POST'])
 def email():
 
 """User writes info in login email    
@@ -60,6 +58,6 @@ flash("Thank You, %s" % user.name)
 
 
 
-return render_template(“/contact.html", user=user)  
+return render_template(“contact.html", user=user)                                                                                                                                                                                                                                                  
 	
 	
